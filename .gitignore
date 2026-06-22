@@ -1,0 +1,49 @@
+# 🔐 Secrets (VERY IMPORTANT)
+
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+.env
+*.env
+
+# Optional: if you use user secrets
+
+secrets.json
+
+# 🧾 Logs
+
+logs/
+*.log
+
+# 📦 Uploads (user files)
+
+wwwroot/uploads/
+
+# 🧠 Build output (.NET)
+
+bin/
+obj/
+
+# 🧠 Visual Studio
+
+.vs/
+*.user
+*.suo
+
+# 🧠 VS Code
+
+.vscode/
+*.code-workspace
+
+# 🌐 Node (Frontend)
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# 🖥 OS junk
+
+.DS_Store
+Thumbs.db
